@@ -1,0 +1,33 @@
+@import '@/assets/styles/variables';
+
+.wrapper {
+	width: 3.125vw;
+	height: 3.333vw;
+	border-radius: 0.417vw;
+	background-color: white;
+	margin: 0 auto;
+	padding-top: 0.365vw;
+	display: flex;
+	flex-direction: column;
+	gap: 0.208vw;
+
+	.date_name {
+		height: 1.094vw;
+		text-align: center;
+		font-size: 0.938vw;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		color: $border-color;
+	}
+
+	.date_num {
+		height: 1.302vw;
+		text-align: center;
+		font-size: 1.094vw;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		color: $medium-gray;
+	}
+}

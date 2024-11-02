@@ -1,0 +1,54 @@
+@import '@/assets/styles/variables';
+
+.menu_item {
+	display: flex;
+	align-items: center;
+	gap: 1.042vw;
+	cursor: pointer;
+
+	> div {
+		width: 0.313vw;
+		height: 1.302vw;
+		flex-shrink: 0;
+		border-radius: 0 26.042vw 26.042vw 0;
+		background: white;
+		transition: all 0.3s ease;
+	}
+
+	a {
+		text-decoration: none;
+		> div {
+			padding-left: 0.521vw;
+			width: 14.687vw;
+			height: 2.604vw;
+			border-radius: 0.521vw;
+			background-color: white;
+			display: flex;
+			align-items: center;
+			gap: 0.99vw;
+			transition: all 0.3s ease;
+
+			> h1 {
+				font-family: 'Gilroy-Medium';
+				font-size: 0.99vw;
+				color: $gray-text;
+				width: 5.521vw;
+			}
+
+			.svg {
+				width: 0.365vw;
+				height: 0.625vw;
+				margin-left: 4.349vw;
+				> path {
+					fill: white;
+					transition: fill 0.3s ease;
+				}
+			}
+		}
+	}
+
+	> svg {
+		color: black;
+		transition: color 0.3s ease;
+	}
+}

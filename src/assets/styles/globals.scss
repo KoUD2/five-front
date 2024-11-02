@@ -1,0 +1,75 @@
+@import './reset';
+@import './fonts';
+
+body {
+	overflow-x: hidden;
+}
+p {
+	font-family: 'Gilroy-Regular';
+}
+
+h2 {
+	font-family: 'Gilroy-Medium';
+}
+
+h1 {
+	font-family: 'Gilroy-Semibold';
+}
+
+button {
+	font-family: 'Gilroy-Regular';
+	font-size: 1.094vw;
+}
+a {
+	font-family: 'Gilroy-Medium';
+	color: #767676;
+}
+input {
+	font-family: 'Gilroy-Regular';
+	font-weight: 400;
+	outline: none;
+	border: none;
+	display: flex;
+	align-items: center;
+}
+::-webkit-input-placeholder {
+	font-family: 'Gilroy-Regular';
+	color: #767676;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+::-moz-placeholder {
+	font-family: 'Gilroy-Regular';
+	color: #767676;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+:-ms-input-placeholder {
+	font-family: 'Gilroy-Regular';
+	color: #767676;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+:-moz-placeholder {
+	font-family: 'Gilroy-Regular';
+	color: #767676;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.body_container {
+	display: flex;
+}
+.left_bar {
+	width: 20.729vw;
+	border-right: 0.052vw solid #2e3339;
+	height: 59.896vw;
+}
+.main_content {
+	width: 72.656vw;
+	padding: 1.615vw 5.052vw 2.344vw 1.563vw;
+}

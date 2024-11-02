@@ -1,0 +1,41 @@
+@import '@/assets/styles/variables';
+
+.modules {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 0.521vw;
+
+	> h2 {
+		color: $medium-gray;
+		font-size: 0.99vw;
+	}
+}
+
+.active {
+	color: black !important;
+}
+
+.svg {
+	color: #767676;
+	width: 1.25vw;
+	height: 1.25vw;
+}
+
+.svg_now {
+	color: black;
+}
+
+.wrapper {
+	position: absolute;
+	margin-top: 1.094vw;
+	left: 0;
+	width: 22.917vw;
+	height: 3.021vw;
+	display: flex;
+	gap: 1.146vw;
+	align-items: center;
+	border-top: 0.104vw solid $gray-line;
+	border-bottom: 0.104vw solid $gray-line;
+	justify-content: center;
+}

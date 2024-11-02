@@ -1,0 +1,110 @@
+.wrapper {
+	cursor: pointer;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.625vw 0.781vw;
+	width: 40.833vw;
+	border-radius: 0.313vw;
+	border: 0.078vw solid #adadad;
+	background-color: #fff;
+	transition:
+		border 0.3s ease-out,
+		background-color 0.3s ease-out;
+
+	.nameClass {
+		display: flex;
+		align-items: center;
+		gap: 1.563vw;
+
+		> div {
+			display: flex;
+			align-items: center;
+			gap: 0.521vw;
+
+			.svg {
+				width: 1.563vw;
+				height: 1.563vw;
+				transition: background-color 0.3s ease-out;
+
+				> svg {
+					width: 0.938vw;
+					height: 0.938vw;
+
+					> path {
+						transition: stroke 0.3s ease-out;
+					}
+				}
+			}
+
+			> p {
+				font-size: 0.99vw;
+			}
+		}
+
+		> p {
+			color: #adadad;
+			font-size: 0.99vw;
+			transition: color 0.3s ease-out;
+		}
+	}
+	.wrapperCount {
+		display: flex;
+		gap: 1.563vw;
+		align-items: center;
+
+		> div {
+			display: flex;
+			gap: 0.521vw;
+
+			.svg {
+				width: 1.563vw;
+				height: 1.563vw;
+				transition: background-color 0.3s ease-out;
+
+				> svg {
+					width: 0.938vw;
+					height: 0.938vw;
+					transition: color 0.3s ease-out;
+				}
+			}
+		}
+
+		> p {
+			font-size: 0.99vw;
+		}
+	}
+
+	&:hover {
+		background-color: #efecfb;
+		border: 0.078vw solid #bfb4ef;
+
+		.nameClass {
+			> div {
+				.svg {
+					background-color: #bfb4ef;
+					> svg {
+						> path {
+							stroke: #5b478d !important;
+						}
+					}
+				}
+			}
+
+			> p {
+				color: #5b478d;
+			}
+		}
+
+		.wrapperCount {
+			> div {
+				.svg {
+					background-color: #bfb4ef;
+					> svg {
+						color: #5b478d !important;
+					}
+				}
+			}
+		}
+	}
+}

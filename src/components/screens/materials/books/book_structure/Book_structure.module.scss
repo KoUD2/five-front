@@ -1,0 +1,19 @@
+.container {
+	width: 46.25vw;
+	display: flex;
+	justify-content: space-between;
+
+	> h1 {
+		color: #7b778b;
+		font-family: 'Gilroy-SemiBold';
+		font-size: 1.094vw;
+		font-style: normal;
+		line-height: normal;
+	}
+
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 1.042vw;
+	}
+}

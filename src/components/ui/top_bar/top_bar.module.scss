@@ -1,0 +1,26 @@
+.button {
+	display: flex;
+	align-items: center;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.bell,
+.glass {
+	cursor: pointer;
+}
+
+.bell {
+	> img {
+		width: 1.015vw;
+		height: 1.094vw;
+	}
+}
+
+.glass {
+	> img {
+		width: 1.099vw;
+		height: 1.094vw;
+	}
+}

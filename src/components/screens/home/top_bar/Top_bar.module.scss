@@ -1,0 +1,89 @@
+@import '@/assets/styles/variables';
+
+.button {
+	width: 11.546vw;
+	height: 2.656vw;
+	border-radius: 0.573vw;
+	background: $orange;
+	color: white;
+	padding: 0.781vw 1.25vw;
+
+	> svg {
+		margin-right: 0.313vw;
+	}
+
+	> h1 {
+		height: 1.094vw;
+		font-size: 0.938vw;
+		font-family: 'Gilroy-Medium';
+	}
+}
+
+.icons {
+	width: 1.25vw;
+	height: 1.25vw;
+	transition: color 0.3s ease;
+
+	&:hover {
+		color: $orange;
+	}
+}
+
+.svg_plus {
+	width: 1.302vw;
+	height: 1.25vw;
+}
+
+.container {
+	position: relative;
+	margin-left: 1.875vw;
+	width: 72.375vw;
+	padding-top: 1.302vw;
+	padding-right: 4.302vw;
+	margin-bottom: 1.302vw;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	.greeting {
+		position: absolute;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.573vw;
+		> h1 {
+			color: #2e3339;
+			font-family: 'Gilroy-Regular';
+			font-size: 0.938vw;
+			font-style: normal;
+			line-height: normal;
+		}
+		> h2 {
+			color: #000;
+			font-family: 'Gilroy-Medium';
+			font-size: 1.094vw;
+			font-style: normal;
+			line-height: normal;
+		}
+	}
+
+	.wrapper {
+		> svg {
+			cursor: pointer;
+		}
+	}
+
+	div:nth-child(1) {
+		> p {
+			height: 1.094vw;
+			font-size: 0.938vw;
+			color: #2e3339;
+		}
+	}
+
+	div:last-child {
+		display: flex;
+		align-items: center;
+		gap: 2.188vw;
+	}
+}

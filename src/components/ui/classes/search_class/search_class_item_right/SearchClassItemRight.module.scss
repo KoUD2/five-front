@@ -1,0 +1,54 @@
+.wrapper {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	width: 20.99vw;
+	height: 2.76vw;
+	padding: 0.625vw 0.781vw;
+	border-radius: 0.313vw;
+	border: 0.078vw solid #adadad;
+	align-items: center;
+
+	> div {
+		display: flex;
+		gap: 0.521vw;
+		align-items: center;
+
+		> p {
+			font-size: 0.99vw;
+		}
+
+		.svg {
+			width: 1.563vw;
+			height: 1.563vw;
+			transition: background-color 0.3s ease-out;
+
+			> svg {
+				width: 0.938vw;
+				height: 0.938vw;
+
+				> path {
+					transition: stroke 0.3s ease-out;
+				}
+			}
+		}
+	}
+
+	.trashIcon {
+		cursor: pointer;
+
+		svg {
+			width: 1.451vw;
+			height: 1.563vw;
+		}
+
+		svg path {
+			stroke: #eb5931;
+			transition: stroke 0.3s ease-out;
+		}
+
+		&:hover svg path {
+			stroke: darken($color: #eb5931, $amount: 30%);
+		}
+	}
+}

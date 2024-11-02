@@ -1,0 +1,45 @@
+@import '@/assets/styles/variables';
+
+.wrapper {
+	width: 21.146vw;
+	height: 3.177vw;
+	border-radius: 0.938vw;
+	border: 0.104vw solid $border-color;
+	background: #fff;
+	padding: 0.938vw 0.729vw 1.563vw 1.094vw;
+
+	> h2 {
+		height: 1.302vw;
+		font-size: 1.094vw;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	> div {
+		margin-top: 0.052vw;
+		display: flex;
+		flex-direction: column;
+		gap: 0.469vw;
+
+		> h2 {
+			font-size: 0.938vw;
+			height: 1.094vw;
+			margin-left: 19.219vw;
+		}
+	}
+
+	div > div {
+		width: 21.146vw;
+		height: 0.26vw;
+		border-radius: 2.5vw;
+		background: #f2f3f3;
+
+		> div {
+			width: 6.771vw;
+			height: 0.26vw;
+			border-radius: 2.5vw;
+			background: $dark-green;
+		}
+	}
+}

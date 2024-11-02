@@ -1,0 +1,25 @@
+.wrapper {
+	cursor: pointer;
+	display: flex;
+	width: 6.823vw;
+	height: 1.979vw;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.313vw;
+	border: 0.078vw solid #adadad;
+	background: #fff;
+	text-align: center;
+	font-family: 'Gilroy-Regular';
+	font-size: 0.99vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	transition:
+		border 0.3s ease-out,
+		background-color 0.3s ease-out;
+
+	&:hover {
+		border: 0.078vw solid #bfb4ef;
+		background-color: #efecfb;
+	}
+}

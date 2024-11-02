@@ -1,0 +1,47 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1.563vw;
+
+	.wrapperSearch {
+		width: 40.833vw;
+		display: flex;
+		gap: 1.563vw;
+
+		> input {
+			box-sizing: border-box;
+			width: 19.635vw;
+			padding: 0.365vw 0vw;
+			border-bottom: 0.052vw solid #adadad;
+			color: #000;
+			font-size: 0.885vw;
+		}
+
+		> button {
+			cursor: pointer;
+			width: 5.208vw;
+			height: 1.771vw;
+			border-radius: 0.573vw;
+			background-color: #eb5931;
+			border: none;
+			color: #fff;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			transition: background-color 0.3s ease-out;
+
+			&:hover {
+				background-color: darken($color: #eb5931, $amount: 15%);
+			}
+		}
+	}
+
+	.wrapperAllClasses {
+		display: flex;
+		flex-direction: column;
+		gap: 0.781vw;
+	}
+}
+
+.emptyField {
+	width: 40.833vw;
+}

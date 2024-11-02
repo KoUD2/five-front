@@ -1,0 +1,67 @@
+@import '@/assets/styles/variables';
+
+.header {
+	height: 1.51vw;
+	color: $medium-gray;
+	font-size: 0.99vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	letter-spacing: -0.019vw;
+	margin-top: 1.823vw;
+}
+
+.header2 {
+	margin-top: 1.302vw;
+}
+
+.practice_card {
+	height: 30.156vw;
+}
+
+.progress {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 0.521vw;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	margin-top: 0.781vw;
+
+	> img {
+		width: 1.25vw;
+		height: 1.25vw;
+	}
+
+	.link_text {
+		height: 1.51vw;
+		font-size: 0.99vw;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 150%;
+		letter-spacing: -0.019vw;
+		border-bottom: 0.078vw solid black;
+		margin-left: 0.521vw;
+	}
+}
+
+.link2 {
+	margin-top: 0.469vw;
+}
+
+.svg {
+	width: 1.25vw;
+	height: auto;
+}
+
+.list {
+	height: 1.51vw;
+	font-size: 0.99vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	letter-spacing: -0.019vw;
+}

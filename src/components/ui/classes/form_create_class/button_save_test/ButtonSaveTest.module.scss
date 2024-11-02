@@ -1,0 +1,32 @@
+.wrapper {
+	cursor: pointer;
+	display: flex;
+	gap: 0.313vw;
+	align-items: center;
+	justify-content: center;
+	width: 11.146vw;
+	height: 2.656vw;
+	border-radius: 0.573vw;
+	background-color: #eb5931;
+	border: none;
+	margin-top: 1.563vw;
+	transition: background-color 0.3s ease-out;
+
+	> svg {
+		width: 1.25vw;
+		height: 1.25vw;
+	}
+
+	> h2 {
+		color: #fff;
+		font-family: 'Gilroy-Medium';
+		font-size: 0.938vw;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	&:hover {
+		background-color: darken($color: #eb5931, $amount: 15%);
+	}
+}

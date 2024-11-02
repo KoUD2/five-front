@@ -1,0 +1,46 @@
+.wrapperTasks {
+	margin-top: 1.302vw;
+	display: flex;
+	flex-wrap: wrap;
+	width: 44.844vw;
+	gap: 0.781vw;
+}
+
+.sectionValues {
+	margin-top: 1.563vw;
+}
+
+.wrapper {
+	width: 47.813vw;
+	border-radius: 0.938vw;
+	border: 0.078vw solid #adadad;
+	// height: 1010px;
+	background: #fff;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.inProgress {
+	display: flex;
+	width: 45.729vw;
+	padding: 0.417vw 0;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.313vw;
+	background-color: #f4f4f4;
+	margin-bottom: 1.563vw;
+
+	> p {
+		color: #000;
+		text-align: center;
+		font-family: 'Gilroy-Regular';
+		font-size: 0.99vw;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+}

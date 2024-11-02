@@ -1,0 +1,33 @@
+.wrapper {
+	margin-top: 1.042vw;
+	margin-left: 1.875vw;
+	margin-bottom: 1.528vw;
+	height: 100vh;
+	display: flex;
+	gap: 1.875vw;
+
+	.tasks {
+		padding: 1.042vw;
+		border-radius: 0.938vw;
+		border: 0.078vw solid #adadad;
+		background: #fff;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		> h1 {
+			color: #000;
+			font-family: 'Gilroy-Medium';
+			font-size: 1.094vw;
+			text-align: center;
+		}
+
+		.line {
+			margin-top: 1.042vw;
+			margin-bottom: 1.563vw;
+			width: 45.729vw;
+			height: 0.078vw;
+			background-color: #adadad;
+		}
+	}
+}

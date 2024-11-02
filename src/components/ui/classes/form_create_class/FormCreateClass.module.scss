@@ -1,0 +1,182 @@
+.wrapper {
+	box-sizing: border-box;
+	width: 45.729vw;
+	padding: 0.781vw;
+	border-radius: 0.313vw;
+	border: 0.078vw solid #adadad;
+	display: flex;
+	gap: 2.656vw;
+
+	.leftAreaDescription {
+		display: flex;
+		flex-direction: column;
+		gap: 1.042vw;
+
+		> div {
+			display: flex;
+			align-items: center;
+			gap: 0.833vw;
+
+			.svg {
+				width: 2.604vw;
+				height: 2.604vw;
+
+				> svg {
+					width: 1.563vw;
+					height: 1.563vw;
+				}
+			}
+
+			> input {
+				border: 0.13vw solid #d9d9d9;
+				box-sizing: border-box;
+				padding: 0.26vw 0.781vw;
+				width: 17.344vw;
+				height: 1.563vw;
+				border-radius: 0.573vw;
+				background: #d9d9d9;
+				font-family: 'Gilroy-Medium';
+				font-size: 0.938vw;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+
+				&::placeholder {
+					font-family: 'Gilroy-Medium';
+					color: rgba(0, 0, 0, 0.5);
+					font-size: 0.938vw;
+					font-style: normal;
+					font-weight: 500;
+					line-height: normal;
+				}
+			}
+		}
+
+		> textarea {
+			box-sizing: border-box;
+			padding: 0.521vw;
+			width: 20.781vw;
+			height: 8.021vw;
+			border-radius: 0.573vw;
+			background: #d9d9d9;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			outline: none;
+			border: 0.13vw solid #d9d9d9;
+			resize: none;
+
+			&::placeholder {
+				color: rgba(0, 0, 0, 0.5);
+				font-family: 'Gilroy-Medium';
+				font-size: 0.938vw;
+			}
+		}
+	}
+
+	.wrapperInfoStudents {
+		.button {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			width: fit-content;
+			height: fit-content;
+			gap: 0.521vw;
+			border: none;
+			background-color: transparent;
+			margin-top: 0.521vw;
+
+			> p {
+				font-size: 0.99vw;
+				color: #adadad;
+				transition: color 0.3s ease-out;
+			}
+
+			> svg {
+				width: 0.781vw;
+				height: auto;
+
+				path {
+					transition: stroke 0.3s ease-out;
+				}
+			}
+
+			&:hover {
+				> p {
+					color: #000 !important;
+				}
+
+				> svg {
+					path {
+						stroke: #000 !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+.error {
+	border: 0.13vw solid #f52f2f !important;
+	background-color: #f5a7a7 !important;
+}
+
+.inputStudentHash {
+	box-sizing: border-box;
+	width: 13.021vw;
+	height: 1.563vw;
+	background-color: #d9d9d9;
+	border-radius: 0.573vw;
+	padding-left: 0.781vw;
+	font-family: 'Gilroy-Medium';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+
+	&::placeholder {
+		font-family: 'Gilroy-Medium';
+	}
+}
+
+.wrapperAllUsers {
+	margin-top: 0.781vw;
+	display: flex;
+	flex-direction: column;
+	gap: 0.781vw;
+
+	.wrapperSearchUsers {
+		display: flex;
+		gap: 2.552vw;
+		align-items: center;
+
+		> button {
+			cursor: pointer;
+			border: none;
+			padding: 0.26vw 1.25vw 0.208vw 1.25vw;
+			border-radius: 0.573vw;
+			background-color: #eb5931;
+			color: #fff;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+			transition: background-color 0.3s ease-out;
+
+			&:hover {
+				background-color: darken($color: #eb5931, $amount: 15%);
+			}
+		}
+	}
+}
+
+.InfoEmptyMini {
+	width: 20.729vw;
+	height: 1.563vw;
+}
+
+.wrapperChosen {
+	display: flex;
+	flex-direction: column;
+	gap: 0.781vw;
+}

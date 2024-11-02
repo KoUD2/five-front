@@ -1,0 +1,65 @@
+.wrapper {
+	cursor: pointer;
+	width: 29.375vw;
+	padding: 0.729vw 0 0.781vw 0.781vw;
+	background: #fff;
+	border-radius: 0.417vw;
+	display: flex;
+	gap: 0.781vw;
+	align-items: center;
+
+	> img {
+		width: 1.927vw;
+		height: 1.927vw;
+	}
+
+	.info {
+		display: flex;
+		flex-direction: column;
+		gap: 0.313vw;
+
+		.time_subject {
+			display: flex;
+			gap: 1.042vw;
+
+			.subject {
+				color: #767676;
+				font-family: 'Gilroy-Medium';
+				font-size: 0.781vw;
+				font-style: normal;
+				line-height: normal;
+			}
+
+			.time {
+				display: flex;
+				align-items: center;
+				gap: 0.521vw;
+				> div {
+					width: 0.313vw;
+					height: 0.313vw;
+					border-radius: 100vw;
+					background-color: #767676;
+				}
+				> p {
+					color: #767676;
+					font-family: 'Gilroy-Medium';
+					font-size: 0.781vw;
+					font-style: normal;
+					line-height: normal;
+				}
+			}
+		}
+
+		> h1 {
+			color: #767676;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-style: normal;
+			line-height: normal;
+
+			> span {
+				color: #000;
+			}
+		}
+	}
+}

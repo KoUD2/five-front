@@ -1,0 +1,22 @@
+@import '@/assets/styles/variables';
+
+.wrapper {
+	display: flex;
+	height: 0.99vw;
+	padding: 0.156vw 0.573vw;
+	justify-content: center;
+	align-items: center;
+	gap: 0.521vw;
+	border-radius: 26.042vw;
+	border: 0.052vw solid $orange;
+	background: #fdecdb;
+
+	> h2 {
+		height: 0.938vw;
+		color: $orange;
+		font-size: 0.781vw;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+}

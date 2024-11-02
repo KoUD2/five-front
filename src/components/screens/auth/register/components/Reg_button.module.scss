@@ -1,0 +1,39 @@
+@import '@/assets/styles/variables';
+
+.Reg_buttons {
+	width: 19.635vw;
+	padding: 0.677vw;
+	gap: 0.521vw;
+	border-radius: 0.417vw;
+	text-align: center;
+	justify-content: center;
+	font-family: 'Gilroy-Medium';
+	font-size: 0.885vw;
+	margin-bottom: 0.521vw;
+	border: 0.052vw solid $border-color !important;
+	background: #fff;
+}
+.Dark {
+	border: none !important;
+	background-color: $orange;
+	color: #ffffff;
+	margin-top: 1.771vw;
+}
+.To_signin {
+	display: flex;
+	justify-content: center;
+	margin-top: 1.042vw;
+	gap: 0.26vw;
+
+	> p {
+		height: 1.042vw;
+		font-size: 0.885vw;
+	}
+
+	> a {
+		height: 1.042vw;
+		font-size: 0.885vw;
+		text-decoration: none;
+		border-bottom: 0.052vw solid $medium-gray;
+	}
+}

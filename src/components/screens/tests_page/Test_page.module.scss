@@ -1,0 +1,47 @@
+.wrapper {
+	margin-top: 1.042vw;
+	margin-left: 1.875vw;
+	margin-bottom: 1.528vw;
+	display: flex;
+	gap: 1.875vw;
+
+	.name {
+		margin-top: 1.563vw;
+	}
+
+	.timer {
+		width: 22.969vw;
+		height: 51.51vw;
+		border-radius: 0.938vw;
+		border: 0.078vw solid #adadad;
+		background: #fff;
+	}
+
+	.tasks {
+		padding: 1.042vw;
+		border-radius: 0.938vw;
+		border: 0.078vw solid #adadad;
+		background: #fff;
+
+		> h1 {
+			color: #000;
+			font-family: 'Gilroy-Medium';
+			font-size: 1.094vw;
+			text-align: center;
+		}
+
+		.line {
+			margin-top: 1.042vw;
+			margin-bottom: 1.563vw;
+			width: 45.729vw;
+			height: 0.078vw;
+			background-color: #adadad;
+		}
+	}
+
+	.wrapperTasks {
+		display: flex;
+		flex-direction: column;
+		gap: 1.042vw;
+	}
+}

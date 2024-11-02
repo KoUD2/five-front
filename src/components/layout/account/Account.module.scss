@@ -1,0 +1,31 @@
+@import '@/assets/styles/variables';
+
+.step {
+	display: flex;
+	align-items: center;
+	gap: 0.837vw;
+}
+.wrapper {
+	margin-top: 1.094vw;
+	margin-left: 1.823vw;
+	display: flex;
+	flex-direction: column;
+	gap: 1.667vw;
+
+	h2 {
+		height: 1.146vw;
+		color: $gray-text;
+		font-size: 0.99vw;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+}
+.profile {
+	margin-left: 0.313vw;
+	margin-right: 0.296vw;
+}
+.settings {
+	margin-left: 0.208vw;
+	margin-right: 0.18vw;
+}

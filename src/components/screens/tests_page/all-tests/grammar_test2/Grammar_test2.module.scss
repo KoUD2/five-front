@@ -1,0 +1,183 @@
+@import '@/assets/styles/variables';
+
+.paragraphWrapper {
+	width: 31.927vw;
+
+	> span {
+		> span {
+			> input {
+				cursor: pointer;
+				width: 5.625vw;
+				min-width: 5.625vw;
+				height: 1.302vw;
+				display: inline-block;
+				border-radius: 0.417vw;
+				font-family: 'Gilroy-Medium';
+				background: $gray-line;
+				text-align: center;
+				font-size: 0.938vw;
+			}
+			::-webkit-input-placeholder {
+				font-family: 'Gilroy-Medium';
+				color: #999;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				text-align: center;
+				color: #999;
+				font-size: 0.938vw;
+			}
+			::-moz-placeholder {
+				font-family: 'Gilroy-Medium';
+				color: #999;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				text-align: center;
+				color: #999;
+				font-size: 0.938vw;
+			}
+			:-ms-input-placeholder {
+				font-family: 'Gilroy-Medium';
+				color: #999;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				text-align: center;
+				color: #999;
+				font-size: 0.938vw;
+			}
+			:-moz-placeholder {
+				font-family: 'Gilroy-Medium';
+				color: #999;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				text-align: center;
+				color: #999;
+				font-size: 0.938vw;
+			}
+		}
+	}
+}
+
+.inputWrapper {
+	position: relative;
+	display: inline-block;
+}
+
+.sentenceWrapper {
+	color: #000;
+	font-family: 'Gilroy-Medium';
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 170%;
+}
+
+.dropdown {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	min-width: 5.625vw;
+	padding: 0.417vw;
+	display: flex;
+	flex-direction: column;
+	gap: 0.417vw;
+	border-radius: 0.417vw;
+	background-color: #d9d9d9;
+	border: 0.078vw solid #999999;
+	z-index: 1000;
+	margin-top: 0.26vw;
+}
+
+.option {
+	padding: 0.26vw 1.146vw;
+	text-align: center;
+	border-radius: 0.521vw;
+	background: #fff;
+	cursor: pointer;
+	transition:
+		color 0.3s ease-out,
+		background-color 0.3s ease-out;
+}
+
+.option:hover {
+	background-color: #313131;
+	color: white;
+}
+
+.mainWrapper {
+	padding: 1.302vw 9.688vw 1.302vw 1.042vw;
+	background-color: $lite-gray;
+	border-radius: 0.573vw;
+	display: flex;
+	gap: 1.042vw;
+	position: relative;
+
+	.tags {
+		> div {
+			width: 2.031vw;
+			height: 2.031vw;
+			flex-shrink: 0;
+			border-radius: 312.5vw;
+			border: 0.078vw solid #000;
+			background: transparent;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			> h1 {
+				color: #000;
+				font-family: 'Gilroy-Medium';
+				font-size: 0.938vw;
+				font-style: normal;
+				line-height: normal;
+			}
+		}
+	}
+
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 1.563vw;
+		> h1 {
+			margin-left: 3.073vw;
+			width: 23.438vw;
+			color: #000;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-style: normal;
+			line-height: normal;
+		}
+
+		.wrapperText {
+			display: flex;
+			gap: 1.042vw;
+			.text {
+				display: flex;
+				flex-direction: column;
+				gap: 0.521vw;
+				margin-left: 2.073vw;
+
+				> h1 {
+					color: #000;
+					text-align: center;
+					font-family: 'Gilroy-Semibold';
+					font-size: 0.938vw;
+					font-style: normal;
+					line-height: normal;
+				}
+				> p {
+					width: 31.927vw;
+					color: #000;
+					font-family: 'Gilroy-Medium';
+					font-size: 0.938vw;
+					font-weight: 500;
+					line-height: 170%;
+				}
+			}
+		}
+	}
+}

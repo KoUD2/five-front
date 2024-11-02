@@ -1,0 +1,40 @@
+@import '@/assets/styles/variables';
+
+.wrapper {
+	width: 44.063vw;
+	padding: 1.563vw 1.042vw 1.042vw 1.042vw;
+	background-color: $lite-gray;
+	border-radius: 0.781vw;
+
+	> h1 {
+		margin-bottom: 0.781vw;
+		width: 33.385vw;
+		font-family: 'Gilroy-SemiBold';
+		font-size: 1.406vw;
+	}
+
+	> p {
+		width: 27.396vw;
+		font-family: 'Gilroy-Regular';
+		font-size: 0.99vw;
+		color: rgba(0, 0, 0, 0.8);
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%;
+	}
+
+	.button {
+		margin-left: 31.667vw;
+		display: inline-flex;
+		padding: 0.781vw 1.198vw;
+		justify-content: center;
+		align-items: center;
+		gap: 0.521vw;
+		border-radius: 0.573vw;
+		background: $gray;
+
+		font-family: 'Gilroy-Medium';
+		font-size: 0.938vw;
+		color: white;
+	}
+}

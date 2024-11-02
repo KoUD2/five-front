@@ -1,0 +1,126 @@
+@import '@/assets/styles/variables';
+
+.wrapperA {
+	text-decoration: none;
+}
+
+.button {
+	padding: 1.464vw 2.644vw 2.574vw 2.634vw;
+	border-radius: 1.219vw;
+	background-color: white;
+	border: 0.078vw $border-color solid;
+	display: flex;
+	flex-direction: column;
+	gap: 2.021vw;
+	transition:
+		background-color 0.3s ease-out,
+		border 0.3s ease-out;
+
+	> h1 {
+		font-family: 'Gilroy Medium';
+		font-size: 1.024vw;
+	}
+
+	.tasks {
+		display: flex;
+		flex-direction: column;
+		gap: 0.282vw;
+	}
+
+	.task {
+		padding: 0.353vw 1.134vw 0.357vw 0.282vw;
+		background-color: $lite-gray;
+		border-radius: 0.155vw;
+		display: flex;
+		transition: background-color 0.3s ease-out;
+
+		.number {
+			width: 0.55vw;
+			height: 0.55vw;
+			background-color: $gray-line;
+			border-radius: 100vw;
+			transition: background-color 0.3s ease-out;
+		}
+
+		.mainContent {
+			margin-left: 0.283vw;
+			div:nth-child(1) {
+				border-radius: 0.104vw;
+				background-color: $gray-line;
+				width: 5.104vw;
+				height: 0.521vw;
+				transition: background-color 0.3s ease-out;
+			}
+			div:nth-child(2) {
+				margin-top: 0.521vw;
+				border-radius: 0.104vw;
+				background-color: $gray-line;
+				width: 4.635vw;
+				height: 0.99vw;
+				transition: background-color 0.3s ease-out;
+			}
+			div:nth-child(3) {
+				margin-top: 0.26vw;
+				border-radius: 0.104vw;
+				background-color: $gray-line;
+				width: 1.406vw;
+				height: 0.521vw;
+				transition: background-color 0.3s ease-out;
+			}
+		}
+		.timer {
+			margin-left: 2.311vw;
+			border-radius: 0.25vw;
+			width: 2.715vw;
+			height: 2.813vw;
+			background-color: $gray-line;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 0.392vw;
+			transition: background-color 0.3s ease-out;
+
+			div:nth-child(2) {
+				border-radius: 32.147vw;
+				background-color: #b3b3b3;
+				width: 0.729vw;
+				height: 0.729vw;
+				transition: background-color 0.3s ease-out;
+			}
+			div:nth-child(1) {
+				margin-top: 0.421vw;
+				border-radius: 0.104vw;
+				background-color: #b3b3b3;
+				width: 1.979vw;
+				height: 0.875vw;
+				transition: background-color 0.3s ease-out;
+			}
+		}
+	}
+
+	&:hover {
+		background-color: #efecfb;
+		border: 0.078vw #bfb4ef solid;
+
+		.task {
+			background-color: #d2caf4;
+
+			.number {
+				background-color: #b4a5f1;
+			}
+
+			.mainContent {
+				> div {
+					background-color: #b4a5f1;
+				}
+			}
+			.timer {
+				background-color: #b4a5f1;
+
+				> div {
+					background-color: #9a86ef;
+				}
+			}
+		}
+	}
+}

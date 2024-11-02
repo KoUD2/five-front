@@ -1,0 +1,43 @@
+.wrapper {
+	padding: 2.031vw 1.406vw 0 2.76vw;
+	border-right: 0.052vw solid #2e3339;
+}
+.main_wrapper {
+	display: flex;
+
+	.second_wrapper {
+		width: 100%;
+	}
+}
+.logo {
+	> svg {
+		width: 2.188vw;
+		height: 2.188vw;
+	}
+	margin-left: 1.875vw;
+	gap: 0.781vw;
+}
+.top {
+	margin-top: 3.385vw;
+}
+.top2 {
+	margin-top: 1.979vw;
+}
+.top3 {
+	margin-top: 2.604vw;
+}
+.tag1 {
+	height: 1.094vw;
+	margin-left: 1.354vw;
+	color: #767676;
+	font-size: 0.938vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: uppercase;
+}
+.menu_stroke {
+	position: absolute;
+	margin-top: 0.052vw;
+	opacity: 0;
+}

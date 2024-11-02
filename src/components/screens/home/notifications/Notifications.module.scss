@@ -1,0 +1,72 @@
+.wrapper {
+	z-index: 10;
+	position: fixed;
+	right: 0;
+	top: 0;
+	display: none;
+	background: #000;
+	opacity: 0.3;
+	width: 100vw;
+	height: 100vh;
+}
+
+.notification_wrapper {
+	padding: 3.125vw 0 0 2.083vw;
+	z-index: 11;
+	position: fixed;
+	right: 0;
+	top: 0;
+	display: none;
+	background: #fff;
+	width: 37.24vw;
+	height: calc(100vh - 3.125vw);
+	transform: translateX(37.24vw);
+	transition: all 0.5s ease;
+
+	> h1 {
+		color: #000;
+		font-family: 'Gilroy-SemiBold';
+		font-size: 1.406vw;
+		font-style: normal;
+		line-height: normal;
+	}
+
+	.buttons {
+		margin-top: 1.51vw;
+		display: flex;
+		gap: 1.563vw;
+
+		.button {
+			display: flex;
+			padding: 0.417vw;
+			align-items: center;
+			gap: 0.521vw;
+			border-radius: 0.365vw;
+			background: #fff;
+			color: #000;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-style: normal;
+			line-height: normal;
+
+			> svg {
+				width: 1.25vw;
+				height: 1.25vw;
+			}
+		}
+
+		.now {
+			background: #f4f4f4;
+		}
+	}
+	.messages {
+		margin-top: 1.927vw;
+		display: flex;
+		flex-direction: column;
+		gap: 0.521vw;
+	}
+}
+
+.now_card {
+	background: #f4f4f4;
+}

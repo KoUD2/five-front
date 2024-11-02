@@ -1,0 +1,46 @@
+.inputAudio {
+	display: none;
+}
+
+.wrapper {
+	width: 9.896vw;
+	height: 9.896vw;
+	border-radius: 0.924vw;
+	background: #d9d9d9;
+	text-align: center;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	> div {
+		box-sizing: border-box;
+		border-radius: 0.924vw;
+		border: 0.156vw solid rgba(0, 0, 0, 0.5);
+		width: 9.115vw;
+		height: 9.115vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		> p {
+			color: rgba(0, 0, 0, 0.5);
+			text-align: center;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
+	}
+}
+
+.active {
+	> div {
+		border: 0.156vw solid black;
+	}
+}
+
+.activeText {
+	color: black !important;
+}

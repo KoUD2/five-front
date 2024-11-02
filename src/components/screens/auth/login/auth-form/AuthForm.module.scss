@@ -1,0 +1,91 @@
+.wrapperForm {
+	display: flex;
+	flex-direction: column;
+	gap: 1.51vw;
+}
+
+.inputField {
+	display: flex;
+	width: 19.635vw;
+	padding: 0.365vw 0vw;
+	align-items: center;
+	gap: 0.521vw;
+	border-bottom: 0.052vw solid #adadad;
+	font-size: 0.885vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.signIn {
+	cursor: pointer;
+	display: flex;
+	width: 19.635vw;
+	padding: 0.677vw 6.302vw;
+	justify-content: center;
+	align-items: center;
+	gap: 0.521vw;
+	border-radius: 0.417vw;
+	border-color: transparent;
+	color: white;
+	font-size: 0.885vw;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	background: #eb5931;
+}
+
+.wrapperSocialNetworks {
+	display: flex;
+	flex-direction: column;
+	gap: 0.521vw;
+
+	.buttonSocialNetworks {
+		cursor: pointer;
+		display: flex;
+		width: 19.635vw;
+		padding: 0.677vw 5.02vw;
+		justify-content: center;
+		align-items: center;
+		border-radius: 0.417vw;
+		border: 0.052vw solid #adadad;
+		background: #fff;
+		font-size: 0.885vw;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+}
+
+.wrapperEnter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.521vw;
+}
+
+.switchEnter {
+	color: #adadad;
+	font-family: 'Gilroy-Regular';
+	font-size: 0.885vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.switchEnterButton {
+	cursor: pointer;
+	border: none;
+	color: #767676;
+	background-color: transparent;
+	font-family: 'Gilroy-Regular';
+	font-size: 0.885vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration-line: underline;
+}
+
+.wrapperSocialButtons {
+	margin-top: 1.042vw;
+}

@@ -1,0 +1,27 @@
+.wrapper {
+	box-sizing: border-box;
+	cursor: pointer;
+	border: none;
+	padding: 0.729vw 1.667vw;
+	display: flex;
+	gap: 0.313vw;
+	align-items: center;
+	border-radius: 0.573vw;
+	background-color: #eb5931;
+	transition: background-color 0.3s ease-out;
+
+	> svg {
+		width: 1.25vw;
+		height: auto;
+		color: #fff;
+	}
+
+	> h2 {
+		color: #fff;
+		font-size: 0.938vw;
+	}
+
+	&:hover {
+		background-color: darken($color: #eb5931, $amount: 15%);
+	}
+}

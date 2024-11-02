@@ -1,0 +1,44 @@
+.waveformContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.146vw;
+	width: 79%;
+
+	.Time {
+		color: #313131;
+		text-align: center;
+		font-family: 'Gilroy-Medium';
+		font-size: 1.15vw;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	.buttonPlay {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 100vw;
+		width: 3.385vw;
+		height: 3.385vw;
+		border: none;
+		background-color: #999999;
+		transition: background-color 0.3s ease-out;
+
+		&:hover {
+			background-color: #313131;
+		}
+
+		> svg {
+			width: 1.216vw;
+			height: 1.216vw;
+			margin-left: 0.304vw;
+		}
+		> img {
+			width: 1.216vw;
+			height: 1.216vw;
+			margin-top: 0.104vw;
+		}
+	}
+}

@@ -1,0 +1,178 @@
+@import '@/assets/styles/variables';
+
+.containers {
+	margin-top: 0.99vw;
+}
+
+.button {
+	width: 1.563vw;
+	height: 1.563vw;
+	border-radius: 26.042vw;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	> img {
+		width: 0.411vw;
+		height: auto;
+	}
+}
+
+.count_person_1 {
+	background-color: white;
+	color: $dark-green;
+}
+
+.count_person_2 {
+	background-color: $gray;
+	color: white;
+}
+
+.count_person_3 {
+	background-color: white;
+	color: $dark-green;
+}
+
+.button_custom_1 {
+	background-color: #ffffff;
+}
+
+.arrow_custom_1 {
+	fill: #a54500;
+}
+
+.h2 {
+	color: white;
+}
+
+.timing {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.timing_2 {
+	color: #000;
+	opacity: 0.8;
+}
+
+.timing_3 {
+	color: white;
+	opacity: 0.8;
+}
+
+.content1 {
+	border: 0.078vw solid white;
+
+	> h2 {
+		color: white;
+	}
+}
+
+.content2 {
+	border: 0.078vw solid #000;
+
+	> h2 {
+		color: #000;
+	}
+}
+
+.content3 {
+	border: 0.078vw solid white;
+
+	> h2 {
+		color: white;
+	}
+}
+
+.h2_2 {
+	color: black;
+}
+
+.h2_3 {
+	color: white;
+}
+
+.dead1 {
+	border: 0.052vw solid $dark-green;
+	background: $dark-green;
+}
+
+.dead2 {
+	border: 0.052vw solid $lite-gray;
+	background: $lite-gray;
+}
+
+.dead3 {
+	border: 0.052vw solid $dark-green;
+	background: $dark-green;
+}
+
+.no {
+	width: 19.947vw;
+	background-color: #f4f4f4;
+	border-radius: 11px;
+	padding-left: 0.938vw;
+	padding-top: 1.094vw;
+	padding-bottom: 1.094vw;
+	> p {
+		color: rgba(0, 0, 0, 0.8);
+		font-family: 'Gilroy-Medium';
+		font-size: 1.094vw;
+		text-align: center;
+	}
+}
+
+.deadline {
+	margin-top: 5.156vw;
+}
+
+.button2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 26.042vw;
+	width: 1.563vw;
+	height: 1.563vw;
+	background-color: rgba(255, 255, 255, 0.5) !important;
+	border: 0.078vw solid $border-color !important;
+
+	> img {
+		width: 0.411vw;
+		height: auto;
+	}
+}
+
+.date_color {
+	color: white !important;
+}
+
+.wrapper_date_color {
+	background-color: $dark-green !important;
+}
+
+.dates {
+	margin-top: 1.094vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.arrow {
+	transform: rotateY(180deg);
+}
+
+.wrapper {
+	width: 20.104vw;
+	height: 1.563vw;
+	border-radius: 26.042vw;
+	background: #f2f3f3;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.417vw 0.365vw 0.365vw 0.365vw;
+
+	> h2 {
+		height: 1.094vw;
+		font-size: 0.938vw;
+	}
+}

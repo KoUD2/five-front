@@ -1,0 +1,56 @@
+@import '@/assets/styles/variables';
+
+.wrapper {
+	position: relative;
+	width: 20.938vw;
+	height: 2.604vw;
+	border-radius: 0.417vw;
+	border: 0.104vw solid $border-color;
+	display: flex;
+	align-items: center;
+	margin-top: 1.042vw;
+
+	> svg {
+		margin-left: 0.885vw;
+	}
+
+	.input {
+		width: 14.063vw;
+		height: 2.5vw;
+		margin-left: 0.619vw;
+		font-size: 0.938vw;
+		padding: 0;
+	}
+
+	::-webkit-input-placeholder {
+		font-size: 0.938vw;
+	}
+	::-moz-placeholder {
+		font-size: 0.938vw;
+	}
+	:-ms-input-placeholder {
+		font-size: 0.938vw;
+	}
+	:-moz-placeholder {
+		font-size: 0.938vw;
+	}
+
+	.line {
+		position: absolute;
+		width: 0.078vw;
+		height: 2.604vw;
+		background-color: $border-color;
+		right: 2.552vw;
+	}
+
+	.svg {
+		width: 1.25vw;
+		height: 1.25vw;
+	}
+
+	.lines {
+		margin-left: 2.257vw;
+		width: 1.25vw;
+		height: 1.25vw;
+	}
+}

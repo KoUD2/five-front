@@ -1,0 +1,50 @@
+.wrapper {
+	cursor: pointer;
+	display: flex;
+	gap: 0.313vw;
+	align-items: center;
+	border-radius: 0.573vw;
+	border: none;
+	transition: background-color 0.3s ease-out;
+
+	> svg {
+		width: 1.25vw;
+		height: 1.25vw;
+	}
+
+	> p {
+		color: #fff;
+		font-family: 'Gilroy-Medium';
+		font-size: 0.938vw;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+}
+
+.wrapperSend {
+	padding: 0.729vw 1.667vw 0.677vw 1.615vw;
+	background-color: #eb5931;
+
+	&:hover {
+		background-color: darken($color: #eb5931, $amount: 15%);
+	}
+}
+
+.wrapperShare {
+	padding: 0.729vw 0.885vw 0.677vw 0.833vw;
+	background-color: #7b778b;
+
+	&:hover {
+		background-color: #313131;
+	}
+}
+
+.wrapperCreate {
+	padding: 0.729vw 0.885vw 0.677vw 0.833vw;
+	background-color: #eb5931;
+
+	&:hover {
+		background-color: darken($color: #eb5931, $amount: 15%);
+	}
+}

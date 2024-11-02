@@ -1,0 +1,17 @@
+.wrapper {
+	display: flex;
+	width: 45.729vw;
+	padding: 1.042vw 0vw;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 0.078vw solid #adadad;
+
+	> h1 {
+		font-family: 'Gilroy-Medium';
+		font-size: 1.094vw;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+}

@@ -1,0 +1,148 @@
+@import '@/assets/styles/variables';
+
+.wrapper {
+	display: flex;
+	gap: 4.167vw;
+	padding: 1.302vw 0 1.042vw 1.042vw;
+	width: 44.687vw;
+	background-color: $lite-gray;
+	border-radius: 0.573vw;
+	align-items: center;
+	border: 1.5px solid $lite-gray;
+
+	.wrapperAT {
+		display: flex;
+		gap: 1.042vw;
+		align-items: center;
+	}
+
+	.answersVar {
+		margin-left: 3.125vw;
+		display: flex;
+		flex-direction: column;
+		gap: 1.042vw;
+	}
+
+	.number {
+		width: 2.031vw;
+		height: 2.031vw;
+		border-radius: 100vw;
+		border: 0.078vw solid #000;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		> p {
+			color: #000;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+		}
+	}
+
+	.questionAnswers {
+		display: flex;
+		flex-direction: column;
+		gap: 1.563vw;
+	}
+
+	.header {
+		width: 21.875vw;
+		color: #000;
+		font-family: 'Gilroy-Medium';
+		font-size: 0.938vw;
+		line-height: normal;
+	}
+	.variants {
+		display: flex;
+		flex-direction: column;
+		gap: 0.521vw;
+		> p {
+			width: 23.229vw;
+			color: #313131;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			line-height: normal;
+			cursor: pointer;
+		}
+	}
+	.audio {
+		width: 10.028vw;
+		height: 9.896vw;
+		border-radius: 0.924vw;
+		background: #d9d9d9;
+	}
+	.wrapperAudioText {
+		display: flex;
+		flex-direction: column;
+		gap: 1.042vw;
+	}
+
+	.contentAnswers {
+		display: flex;
+		flex-direction: column;
+		gap: 1.042vw;
+	}
+
+	.answer {
+		display: flex;
+		align-items: center;
+		gap: 14px;
+
+		> p {
+			color: #313131;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-style: normal;
+			line-height: normal;
+		}
+
+		.divInput {
+			background: #d9d9d9;
+			width: 1.563vw;
+			height: 1.927vw;
+			border-radius: 0.417vw;
+			> input {
+				padding: 0;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				border-radius: 0.417vw;
+				font-size: 0.938vw;
+				background-color: transparent;
+			}
+		}
+
+		::-webkit-input-placeholder {
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			color: #eb5931;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+		::-moz-placeholder {
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			color: #eb5931;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+		:-ms-input-placeholder {
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			color: #eb5931;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+		:-moz-placeholder {
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			color: #eb5931;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+	}
+}

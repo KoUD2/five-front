@@ -1,0 +1,65 @@
+@import '@/assets/styles/variables';
+
+.wrapper {
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 1.875vw;
+	border-radius: 0.938vw;
+	border: 0.078vw $border-color solid;
+	padding: 1.25vw 1.042vw 1.302vw 1.042vw;
+
+	.header {
+		display: flex;
+		align-items: center;
+		gap: 0.469vw;
+
+		> svg {
+			width: 1.406vw;
+			height: 1.406vw;
+		}
+
+		> h1 {
+			font-family: 'Gilroy-Medium';
+			font-size: 1.094vw;
+		}
+	}
+	.line {
+		margin-top: 1.302vw;
+		margin-bottom: 1.302vw;
+		width: 45.729vw;
+		height: 0.078vw;
+		background-color: $border-color;
+	}
+}
+
+.buttonHeader {
+	display: flex;
+	gap: 23.385vw;
+	align-items: center;
+}
+
+.button {
+	padding: 0.417vw 0.677vw;
+	gap: 0.365vw;
+	border-radius: 0.313vw;
+	border: 0.078vw solid $border-color !important;
+	background: #fff;
+	transition: all 0.3s ease;
+	font-size: 0.99vw;
+
+	> img {
+		margin-top: 0.234vw;
+		width: 0.411vw;
+		height: auto;
+	}
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 14.427vw 14.427vw 14.427vw;
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 0.833vw;
+	grid-row-gap: 0.833vw;
+}

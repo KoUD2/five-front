@@ -1,0 +1,59 @@
+@import '@/assets/styles/variables';
+
+.mainWrapper {
+	padding: 1.302vw 9.688vw 1.302vw 1.042vw;
+	background-color: $lite-gray;
+	border-radius: 0.573vw;
+	display: flex;
+	gap: 1.042vw;
+
+	.numTask {
+		width: 2.031vw;
+		height: 2.031vw;
+		flex-shrink: 0;
+		border-radius: 312.5vw;
+		border: 0.078vw solid #000;
+		background: transparent;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		> h1 {
+			color: #000;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-style: normal;
+			line-height: normal;
+		}
+	}
+	.mainContent {
+		display: flex;
+		flex-direction: column;
+		gap: 2.604vw;
+
+		> h1 {
+			width: 450px;
+			color: #000;
+			font-family: 'Gilroy-Semibold';
+			font-size: 0.938vw;
+			font-style: normal;
+			line-height: normal;
+		}
+
+		> p {
+			width: 31.927vw;
+			color: #000;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-style: normal;
+			line-height: normal;
+		}
+
+		> div {
+			width: 15.625vw;
+			height: 3.229vw;
+			border-radius: 0.781vw;
+			background: $gray-line;
+		}
+	}
+}

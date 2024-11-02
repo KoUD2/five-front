@@ -1,0 +1,53 @@
+@import '@/assets/styles/variables';
+
+.button {
+	padding: 0.417vw 0.677vw;
+	gap: 0.365vw;
+	border-radius: 0.313vw;
+	border: 0.078vw solid $border-color !important;
+	background: #fff;
+	transition: all 0.3s ease;
+	font-size: 0.99vw;
+
+	> img {
+		margin-top: 0.234vw;
+		width: 0.411vw;
+		height: auto;
+	}
+}
+
+.under {
+	height: 0.052vw;
+	width: 20.833vw;
+	margin-top: 0.885vw;
+	background-color: $border-color;
+}
+
+.top_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	> div:nth-child(1) {
+		display: flex;
+		gap: 0.781vw;
+		align-items: center;
+
+		> h2 {
+			display: table-cell;
+			vertical-align: bottom;
+			font-size: 1.094vw;
+		}
+	}
+}
+
+.wrapper {
+	padding: 1.042vw;
+	width: 20.885vw;
+	height: 15.365vw;
+	border-radius: 0.938vw;
+	border: 0.104vw solid $border-color;
+	background: #fff;
+	margin-right: 1.875vw;
+	position: relative;
+}

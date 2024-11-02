@@ -1,0 +1,25 @@
+@import '@/assets/styles/variables';
+
+.wrapper {
+	margin-left: 0.469vw;
+	display: flex;
+	gap: 1.979vw;
+	> h1 {
+		font-family: 'Gilroy-Medium';
+		font-size: 1.094vw;
+		height: 1.302vw;
+		cursor: pointer;
+	}
+}
+.under {
+	margin-top: 0.938vw;
+	width: 22.344vw;
+	height: 0.078vw;
+	background-color: $lite-gray;
+	> div {
+		transition: all 0.3s ease;
+		height: 100%;
+		width: 11.51vw;
+		background-color: $orange;
+	}
+}

@@ -1,0 +1,48 @@
+@import '@/assets/styles/variables';
+
+.button {
+	padding: 0.417vw 0.677vw;
+	gap: 0.365vw;
+	border-radius: 0.313vw;
+	border: 0.052vw solid $border-color !important;
+	background: #fff;
+	font-size: 0.99vw;
+	transition: all 0.3s ease;
+
+	> img {
+		margin-top: 0.234vw;
+		width: 0.411vw;
+		height: auto;
+	}
+}
+
+.top_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	> div:nth-child(1) {
+		display: flex;
+		gap: 0.781vw;
+		align-items: center;
+
+		> h2 {
+			font-size: 1.094vw;
+		}
+	}
+}
+
+.svg {
+	width: 1.25vw;
+	height: 1.25vw;
+}
+
+.wrapper {
+	padding: 1.042vw;
+	width: 20.833vw;
+	height: 49.583vw;
+	border-radius: 0.938vw;
+	border: 0.104vw solid $border-color;
+	background: #fff;
+	position: relative;
+}

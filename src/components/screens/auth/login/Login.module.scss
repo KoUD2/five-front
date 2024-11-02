@@ -1,0 +1,92 @@
+@import '@/assets/styles/variables';
+
+.wrapperMain {
+	padding: auto 0;
+	width: fit-content;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+}
+
+.Logo {
+	position: absolute;
+	top: 2.083vw;
+	left: 2.083vw;
+	width: 4.219vw;
+	height: 4.219vw;
+}
+
+.wrapperBigImage {
+	position: relative;
+
+	> p {
+		position: absolute;
+		bottom: 1.563vw;
+		left: 2.083vw;
+		width: 36.563vw;
+		color: #fff;
+		font-family: 'Gilroy-Semibold';
+		font-size: 1.563vw;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 150%;
+	}
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	gap: 3.125vw;
+}
+
+.bigImage {
+	width: 45.469vw;
+	height: auto;
+	border-radius: 2.083vw;
+}
+
+.Reg_column {
+	display: flex;
+	flex-direction: column;
+
+	> h2 {
+		font-family: 'Gilroy-Semibold';
+		font-size: 1.563vw;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	}
+
+	> h3 {
+		margin-top: 0.781vw;
+		margin-bottom: 2.5vw;
+		font-family: 'Gilroy-Regular';
+		color: #adadad;
+		font-size: 0.885vw;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+}
+
+.wrapperLogo {
+	display: flex;
+	align-items: center;
+	gap: 0.26vw;
+	margin-bottom: 2.083vw;
+
+	> svg {
+		width: 1.471vw;
+		height: 1.471vw;
+	}
+
+	> h3 {
+		font-family: 'Gilroy-Semibold';
+		font-size: 1.042vw;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	}
+}

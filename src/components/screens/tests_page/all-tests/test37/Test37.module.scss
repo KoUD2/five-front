@@ -1,0 +1,159 @@
+@import '@/assets/styles/variables';
+
+.mainWrapper {
+	padding: 1.302vw 9.688vw 1.302vw 1.042vw;
+	background-color: $lite-gray;
+	border-radius: 0.573vw;
+	display: flex;
+	gap: 1.042vw;
+
+	.numTask {
+		width: 2.031vw;
+		height: 2.031vw;
+		flex-shrink: 0;
+		border-radius: 312.5vw;
+		border: 0.078vw solid #000;
+		background: transparent;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		> h1 {
+			color: #000;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-style: normal;
+			line-height: normal;
+		}
+	}
+
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 1.563vw;
+
+		.letter {
+			width: 22.813vw;
+			// height: 15.99vw;
+			border-radius: 0.781vw;
+			border: 0.052vw solid #313131;
+			background: $lite-gray;
+			display: flex;
+			flex-direction: column;
+
+			> h2 {
+				padding: 0.625vw 0 0.625vw 1.042vw;
+				color: #000;
+				font-family: 'Gilroy-Semibold';
+				font-size: 0.938vw;
+				font-style: normal;
+				line-height: normal;
+				border-bottom: 0.052vw solid #313131;
+			}
+
+			> p {
+				padding: 1.042vw 0 1.042vw 1.042vw;
+				width: 20.729vw;
+				color: #000;
+				font-family: 'Gilroy-Medium';
+				font-size: 0.938vw;
+				font-style: normal;
+				line-height: normal;
+			}
+		}
+
+		> h1 {
+			width: 23.438vw;
+			color: #000;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-style: normal;
+			line-height: normal;
+		}
+
+		.questions {
+			> p {
+				width: 23.125vw;
+				color: #000;
+				font-family: 'Gilroy-Medium';
+				font-size: 0.938vw;
+				font-style: normal;
+				line-height: 133.333%;
+			}
+
+			.questionsP {
+				margin-top: 0.521vw;
+				margin-bottom: 0.521vw;
+				margin-left: 1.042vw;
+			}
+		}
+
+		> textarea {
+			width: 21.041vw;
+			height: 7.813vw;
+			padding: 1.042vw;
+			resize: none;
+			color: #313131;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-weight: 500;
+			line-height: 133.333%;
+			border-radius: 0.781vw;
+			border: 0.052vw solid #313131;
+			background: #f4f4f4;
+			&:focus {
+				outline: none;
+			}
+		}
+		textarea::-webkit-scrollbar {
+			width: 0.36vw;
+		}
+
+		textarea::-webkit-scrollbar-track {
+			background: transparent;
+			border-radius: 0.781vw;
+		}
+
+		textarea::-webkit-scrollbar-thumb {
+			background: #999999;
+			border-radius: 0.781vw;
+		}
+
+		textarea::-webkit-scrollbar-thumb:hover {
+			background: #666666;
+		}
+
+		::-webkit-input-placeholder {
+			font-family: 'Gilroy-Medium';
+			color: #999;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			color: #999;
+		}
+		::-moz-placeholder {
+			font-family: 'Gilroy-Medium';
+			color: #999;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			color: #999;
+		}
+		:-ms-input-placeholder {
+			font-family: 'Gilroy-Medium';
+			color: #999;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			color: #999;
+		}
+		:-moz-placeholder {
+			font-family: 'Gilroy-Medium';
+			color: #999;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			color: #999;
+		}
+	}
+}

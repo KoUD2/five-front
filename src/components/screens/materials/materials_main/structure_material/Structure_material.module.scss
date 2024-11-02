@@ -1,0 +1,21 @@
+@import '@/assets/styles/variables';
+
+.wrapper {
+	display: flex;
+
+	> div:first-child {
+		width: 13.646vw;
+		> h2 {
+			height: 1.302vw;
+			font-family: 'Gilroy-SemiBold';
+			font-size: 1.094vw;
+			color: $gray;
+		}
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		gap: 1.042vw;
+	}
+}

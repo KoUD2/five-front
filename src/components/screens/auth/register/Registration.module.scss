@@ -1,0 +1,100 @@
+@import '@/assets/styles/variables';
+
+.Reg_column {
+	display: flex;
+	flex-direction: column;
+
+	> h2 {
+		margin-top: 2.083vw;
+		font-family: 'Gilroy-SemiBold';
+		font-size: 1.563vw;
+		font-style: normal;
+		line-height: normal;
+	}
+
+	> h3 {
+		margin-top: 0.781vw;
+		margin-bottom: 2.5vw;
+		font-family: 'Gilroy-Regular';
+		color: #adadad;
+		font-size: 0.885vw;
+		font-style: normal;
+		line-height: normal;
+	}
+}
+.Reg_buttons {
+	width: 19.635vw;
+	padding: 0.677vw;
+	gap: 0.521vw;
+	border-radius: 0.417vw;
+	text-align: center;
+	justify-content: center;
+	font-family: 'Gilroy-Medium';
+	font-size: 0.885vw;
+	margin-bottom: 0.521vw;
+	border: 0.052vw solid $border-color !important;
+	background: #fff;
+}
+.Dark {
+	border: none !important;
+	background-color: $orange;
+	color: #ffffff;
+	margin-top: 1.771vw;
+}
+.Reg_container {
+	display: flex;
+	gap: 3.125vw;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+.Cover_image {
+	position: absolute;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	gap: 29.166vw;
+	border-radius: 2.083vw;
+}
+.Cover_container {
+	position: relative;
+	width: 45.469vw;
+	height: 42.083vw;
+
+	> img {
+		width: 45.469vw;
+		height: 42.083vw;
+	}
+}
+.Text_container {
+	position: absolute;
+	padding: 2.083vw 6.302vw 2.344vw 2.083vw;
+
+	> img {
+		height: 4.219vw;
+		width: 4.219vw;
+	}
+}
+.logo {
+	gap: 0.26vw;
+}
+
+.logo2 {
+	width: 1.471vw;
+	height: 1.471vw;
+}
+.Cover_text {
+	height: 4.688vw;
+	color: white;
+	position: relative;
+	top: 34.219vw;
+	font-family: 'Gilroy-SemiBold';
+	font-size: 1.563vw;
+	width: 36.563vw;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%;
+}

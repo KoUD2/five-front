@@ -1,0 +1,47 @@
+@import '@/assets/styles/variables';
+
+.link {
+	text-decoration: none;
+	.name {
+		display: flex;
+		flex-direction: column;
+		gap: 1.035vw;
+
+		> h1 {
+			font-family: 'Gilroy-Regular';
+			font-size: 0.99vw;
+		}
+
+		.progress {
+			width: 4.844vw;
+			height: 0.393vw;
+			background-color: $gray-line;
+			border-radius: 26.042vw;
+		}
+	}
+
+	.wrapperProgress {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 0.26vw;
+		grid-row-gap: 0.26vw;
+
+		.partProgress {
+			width: 1.99vw;
+			height: 1.99vw;
+			background-color: $gray-line;
+			border-radius: 100vw;
+		}
+	}
+}
+
+.button {
+	padding: 1vw;
+	width: 14.427vw;
+	display: flex;
+	justify-content: space-between;
+	border: 0.104vw $gray-line solid;
+	border-radius: 0.417vw;
+	background-color: white;
+}

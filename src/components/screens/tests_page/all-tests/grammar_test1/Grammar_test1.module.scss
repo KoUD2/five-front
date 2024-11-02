@@ -1,0 +1,121 @@
+@import '@/assets/styles/variables';
+
+.mainWrapper {
+	padding: 1.302vw 9.688vw 1.302vw 1.042vw;
+	background-color: $lite-gray;
+	border-radius: 0.573vw;
+	display: flex;
+	gap: 1.042vw;
+
+	.tags {
+		> div {
+			width: 2.031vw;
+			height: 2.031vw;
+			flex-shrink: 0;
+			border-radius: 312.5vw;
+			border: 0.078vw solid #000;
+			background: transparent;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			> h1 {
+				color: #000;
+				font-family: 'Gilroy-Medium';
+				font-size: 0.938vw;
+				font-style: normal;
+				line-height: normal;
+			}
+		}
+	}
+
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 1.563vw;
+		> h1 {
+			margin-left: 3.073vw;
+			width: 23.438vw;
+			color: #000;
+			font-family: 'Gilroy-Medium';
+			font-size: 0.938vw;
+			font-style: normal;
+			line-height: normal;
+		}
+
+		.wrapperText {
+			display: flex;
+			gap: 1.042vw;
+			.text {
+				display: flex;
+				flex-direction: column;
+				gap: 0.521vw;
+
+				> h1 {
+					color: #000;
+					text-align: center;
+					font-family: 'Gilroy-Semibold';
+					font-size: 0.938vw;
+					font-style: normal;
+					line-height: normal;
+				}
+				> p {
+					width: 31.927vw;
+					color: #000;
+					font-family: 'Gilroy-Medium';
+					font-size: 0.938vw;
+					font-weight: 500;
+					line-height: 170%;
+
+					> span {
+						> input {
+							width: 5.625vw;
+							height: 1.302vw;
+							display: inline-block;
+							font-family: 'Gilroy-Medium';
+							border-radius: 0.417vw;
+							background: $gray-line;
+							text-align: center;
+						}
+						::-webkit-input-placeholder {
+							font-family: 'Gilroy-Medium';
+							color: #6b6b6b;
+							font-style: normal;
+							font-weight: 400;
+							line-height: normal;
+							text-align: center;
+							font-size: 0.938vw;
+						}
+						::-moz-placeholder {
+							font-family: 'Gilroy-Medium';
+							color: #6b6b6b;
+							font-style: normal;
+							font-weight: 400;
+							line-height: normal;
+							text-align: center;
+							font-size: 0.938vw;
+						}
+						:-ms-input-placeholder {
+							font-family: 'Gilroy-Medium';
+							color: #6b6b6b;
+							font-style: normal;
+							font-weight: 400;
+							line-height: normal;
+							text-align: center;
+							font-size: 0.938vw;
+						}
+						:-moz-placeholder {
+							font-family: 'Gilroy-Medium';
+							color: #6b6b6b;
+							font-style: normal;
+							font-weight: 400;
+							line-height: normal;
+							text-align: center;
+							font-size: 0.938vw;
+						}
+					}
+				}
+			}
+		}
+	}
+}
